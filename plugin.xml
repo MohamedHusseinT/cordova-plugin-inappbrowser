@@ -74,6 +74,7 @@
             <clobbers target="cordova.InAppBrowser.open" />
         </js-module>
         <config-file target="config.xml" parent="/*">
+	    <preference name="OverrideUserAgent" value="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36" />
             <feature name="InAppBrowser">
                 <param name="ios-package" value="CDVWKInAppBrowser" />
                 <param name="onload" value="true" />
