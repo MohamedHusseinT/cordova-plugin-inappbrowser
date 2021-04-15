@@ -34,9 +34,7 @@
         <engine name="cordova-android" version=">=9.0.0" />
         <engine name="cordova-ios" version=">=6.0.0" />
     </engines>
-   <preferences>
-     <preference name="OverrideUserAgent" value="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36" />	
-   </preferences>
+   
 
     <!-- android -->
     <platform name="android">
