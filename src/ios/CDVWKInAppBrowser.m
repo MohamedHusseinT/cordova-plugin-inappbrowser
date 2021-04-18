@@ -784,6 +784,9 @@ BOOL isExiting = FALSE;
     if ([self settingForKey:@"OverrideUserAgent"] != nil) {
         self.webView.customUserAgent = [self settingForKey:@"OverrideUserAgent"];
     }
+   if ( _browserOptions.OverrideUserAgentOption != nil) {
+        self.webView.customUserAgent =  _browserOptions.OverrideUserAgentOption;
+    }
     
     self.webView.clearsContextBeforeDrawing = YES;
     self.webView.clipsToBounds = YES;
