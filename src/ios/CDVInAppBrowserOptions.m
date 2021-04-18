@@ -45,6 +45,8 @@
         self.toolbarcolor = nil;
         self.toolbartranslucent = YES;
         self.beforeload = @"";
+     
+        self.OverrideUserAgentOption = nil;
     }
 
     return self;
